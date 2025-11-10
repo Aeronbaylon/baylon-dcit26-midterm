@@ -1,8 +1,49 @@
-h1 {
-    color : #4ac1f7;
+/* Apply to the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Header styling */
+header {
+    background-color: #fff; /* white background */
+    border-bottom: 1px solid #eee; /* subtle divider line */
+    padding: 15px 0;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: center; /* center the links horizontally */
+    gap: 50px; /* space between Home and About */
+}
+
+/* Navigation links */
+nav a {
+    color: #e63946; /* red text */
+    text-decoration: none; /* remove underline */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: #b22222; /* darker red on hover */
+}
+
+/* Headings */
+h1 {
+    color: #4ac1f7;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Logo image */
 .mylogo {
+    display: block;
     height: 300px;
     width: auto;
+    margin: 20px auto;
 }
